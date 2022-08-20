@@ -4,7 +4,6 @@
 #   username
 #   user id
 #   Home directory path for the user
-
 exec < /etc/passwd
 
 while read -r passwd_output ; do
