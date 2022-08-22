@@ -11,6 +11,7 @@ terminator() {
   rm /var/run/holbertonscript.pid
   exit
 }
+
 echo "$$" > /var/run/holbertonscript.pid
 
 while true
