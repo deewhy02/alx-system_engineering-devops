@@ -12,8 +12,8 @@ terminator() {
   exit
 }
 echo "$$" > /var/run/holbertonscript.pid
-while true
 
+while true
 do
   echo "To infinity and beyond"
   sleep 2
